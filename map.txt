@@ -20,16 +20,3 @@ R	    Red Light 	    Penalize or delay the agent
 C	    check-point	    get stamp here 
 D	    Drop-off Point	Final goal
 .	    Road	        Normal movement
-
-🧪 Algorithms to Implement
-Q-Learning
-SARSA
-n-step Tree Backup
-Each one must:
-Learn over time
-Be compared on convergence, cumulative reward, stability
-📊 Evaluation
-Plot: Cumulative rewards per episode
-Heatmaps: Final learned Q-table for each method
-Delivery time: Average steps to goal
-Use a fixed test set to evaluate generalization
