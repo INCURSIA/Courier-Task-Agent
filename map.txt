@@ -1,0 +1,35 @@
+. . . . . W . . . .
+. B B B . . . T T .
+. B . . . . . . . .
+. B . . . . B B B .
+. . . . . . . . . .
+T T . . . . . . . W
+. . R . . . . . . .
+B . . . R . . . . .
+. . B B C . . . . D
+. . . . . . . . . C
+
+
+0 1 2 3 4 5 6 7 8 9
+
+Symbol	Description	    Use in RL logic
+W	    Warehouse	    High reward for pickup or delivery
+B	    Building block	Slower movement / obstacle
+T	    Tunnel	        Fast travel (teleport-like zones)
+R	    Red Light 	    Penalize or delay the agent
+C	    check-point	    get stamp here 
+D	    Drop-off Point	Final goal
+.	    Road	        Normal movement
+
+🧪 Algorithms to Implement
+Q-Learning
+SARSA
+n-step Tree Backup
+Each one must:
+Learn over time
+Be compared on convergence, cumulative reward, stability
+📊 Evaluation
+Plot: Cumulative rewards per episode
+Heatmaps: Final learned Q-table for each method
+Delivery time: Average steps to goal
+Use a fixed test set to evaluate generalization
